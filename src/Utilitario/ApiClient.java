@@ -12,7 +12,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.Map;
 
 public class ApiClient {
-    private static final String CHAVE_API = "a7fcc32cb108c34409e8421a"; // ***Substitua pela sua chave***
+    private static final String CHAVE_API = "a7fcc32cb108c34409e8421a"; 
     private static final String MOEDA_BASE = "BRL";
     private static TaxasDeCambio taxasDeCambio;
     private static Instant ultimaAtualizacao;
